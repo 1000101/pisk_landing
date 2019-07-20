@@ -174,8 +174,21 @@ h2 {
     padding: 150px 0 150px 0;
     color: white;
     background-color: var(--c-purple);
-    border-top-left-radius: 300px;
+    border-top-left-radius: 180px;
     background-image: url(/res/img/toprightdots.svg);
     background-repeat: no-repeat;
     background-position: right top;
+}
+.banner {
+    padding: 100px 0 0 0;
+    background-image: url(/res/img/bottomleftdots.svg);
+    background-size: 50%;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+.banner img {
+    max-width: 600px;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
 }
