@@ -8,6 +8,7 @@
     --c-topnav-font: #2f4b6e;
     --c-blueish: #e8f5fa;
     --c-purple: #6c63ff;
+    --c-footer: #e6f8ff;
 }
 
 html,
@@ -190,5 +191,38 @@ h2 {
     max-width: 600px;
     position: relative;
     display: inline-block;
-    margin: 0 auto;
+    margin: 30px auto 0 auto;
+}
+.signal {
+    text-transform: uppercase;
+    background: white;
+    border: 2px solid #4b48d6;
+    border-radius: 17px;
+    height: 34px;
+    padding-right: 30px;
+    line-height: 25px;
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: -30px;
+}
+.signal span {
+    margin-top: -2px;
+    margin-left: -2px;
+    margin-right: 10px;
+    border-radius: 16px;
+    display: inline-block;
+    height: 32px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 35px;
+    color: white;
+    text-transform: uppercase;
+    background: #5755d9;
+    border-color: #4b48d6;
+    color: #fff;
+}
+
+footer {
+    background: var(--c-footer);
+    padding: 50px 0 50px 0;
 }
