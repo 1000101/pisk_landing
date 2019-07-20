@@ -175,4 +175,7 @@ h2 {
     color: white;
     background-color: var(--c-purple);
     border-top-left-radius: 300px;
+    background-image: url(/res/img/toprightdots.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
 }
