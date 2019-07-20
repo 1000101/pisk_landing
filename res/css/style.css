@@ -59,7 +59,81 @@ h6 {
         Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     -webkit-font-smoothing: antialiased;
 }
-
+.tor-warning {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 1rem 0 1rem 1rem;
+    color: #fff;
+    background-color: #c71438;
+    background: -webkit-gradient(
+        linear,
+        left top,
+        right bottom,
+        from(#e72385),
+        to(#c71438)
+    );
+    background: -webkit-linear-gradient(top left, #e72385, #c71438);
+    background: -o-linear-gradient(top left, #e72385, #c71438);
+    background: linear-gradient(to bottom right, #e72385, #c71438);
+    display: none;
+}
+.tor-warning h1 {
+    font-size: 2rem;
+    padding-top: 10px;
+}
+.tor-warning h2 {
+    font-size: 1.5rem;
+}
+.tor-warning__close-button {
+    background-color: inherit;
+    border: none;
+    margin: 0;
+    padding: 1rem;
+    -webkit-transition-duration: 0.1s;
+    -o-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -webkit-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    transition-timing-function: linear;
+    -webkit-transition-property: color, background-color;
+    -o-transition-property: color, background-color;
+    transition-property: color, background-color;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+    transition-property: color, background-color;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.tor-warning a {
+    -webkit-transition-duration: 0.1s;
+    -o-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -webkit-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    transition-timing-function: linear;
+    -webkit-transition-property: color, background-color;
+    -o-transition-property: color, background-color;
+    transition-property: color, background-color;
+    color: #fff;
+    text-decoration: underline;
+}
+.tor-warning__close-x {
+    width: 13px;
+    height: 16px;
+}
 .navbar-section {
     margin-top: 20px;
 }
