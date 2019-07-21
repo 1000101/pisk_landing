@@ -330,8 +330,6 @@ h2 {
     padding-right: 30px;
     line-height: 25px;
     display: inline-block;
-    margin-right: 50px;
-    margin-left: -30px;
     white-space: nowrap;
 }
 @media (max-width: 600px) {
@@ -343,7 +341,7 @@ h2 {
         margin: 20px 0 20px 0;
     }
 }
-.signal span {
+.signal .prefix {
     margin-top: -2px;
     margin-left: -2px;
     margin-right: 10px;
