@@ -9,6 +9,12 @@
     --c-blueish: #e8f5fa;
     --c-purple: #6c63ff;
     --c-footer: #e6f8ff;
+
+    --s-width-xs: 480px;
+    --s-width-sm: 600px;
+    --s-width-md: 840px;
+    --s-width-lg: 960px;
+    --s-width-xl: 1280px;
 }
 
 html,
@@ -87,6 +93,13 @@ h6 {
     background: linear-gradient(to bottom right, #e72385, #c71438);
     display: none;
 }
+
+@media (max-width: 600px) {
+    .tor-warning {
+        display: none !important;
+    }
+}
+
 .tor-warning h1 {
     font-size: 2rem;
     padding-top: 10px;
