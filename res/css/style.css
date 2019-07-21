@@ -229,10 +229,20 @@ h2 {
 .hero-content {
     padding: 150px 0 150px 0;
 }
+@media (max-width: 600px) {
+    .hero-content {
+        padding: 30px 0 30px 0;
+    }
+}
 .czsvk {
     max-width: 100%;
     position: relative;
     display: inline-block;
+}
+@media (max-width: 600px) {
+    .czsvk {
+        padding: 30px 0 30px 0;
+    }
 }
 .btn-primary {
     border-radius: 17px;
