@@ -170,6 +170,11 @@ h6 {
     font-size: 1.5rem !important;
     text-transform: none !important;
 }
+@media (max-width: 600px) {
+    .logo {
+        margin: 0;
+    }
+}
 .logo img {
     max-width: 40px;
     vertical-align: middle;
@@ -217,7 +222,8 @@ h2 {
 }
 @media (max-width: 600px) {
     .navbar-section .btn-primary {
-        margin-top: 20px;
+        margin-top: 10px;
+        margin-left: 0;
     }
 }
 .hero-content {
@@ -310,6 +316,11 @@ h2 {
     display: inline-block;
     margin: 30px auto 0 auto;
 }
+@media (max-width: 600px) {
+    .banner img {
+        width: 80%;
+    }
+}
 .signal {
     text-transform: uppercase;
     background: white;
@@ -321,6 +332,16 @@ h2 {
     display: inline-block;
     margin-right: 50px;
     margin-left: -30px;
+    white-space: nowrap;
+}
+@media (max-width: 600px) {
+    .signal {
+        max-width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin: 20px 0 20px 0;
+    }
 }
 .signal span {
     margin-top: -2px;
